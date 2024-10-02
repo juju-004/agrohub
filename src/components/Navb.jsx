@@ -40,7 +40,7 @@ function Navb({ children }) {
             <Nav className={`mr-auto navm ${active ? "active" : ""}`}>
               <NavDropdown title="Knowledge Hub" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
-                  featured publication : fao agripreneurship across africa
+                  featured publication : fao agripreneurship <br /> across africa
                   stories of inspiration
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
