@@ -12,7 +12,7 @@ export const defaultSession: SessionData = {
 
 export const sessionOptions: SessionOptions = {
   // You need to create a secret key at least 32 characters long.
-  password: process.env.SECRET_KEY,
+  password: "jykhtydutrdyrsyrsrtsutersesyrd5r4s",
   cookieName: "session",
   cookieOptions: {
     httpOnly: true,
