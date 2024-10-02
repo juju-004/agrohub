@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fx {
+  @apply flex justify-center items-center;
+}
+
+.bgfbd {
+  background-image: url("../images/agric.jpg");
+}
+
+.navm .buttn {
+  @apply text-white border-white border-l-0 lg:border-l-2 lg:bg-white/10;
+}
+.navm.active .buttn {
+  @apply text-black border-cmedium lg:bg-cmedium/30;
+}
+
+.loader {
+  width: 22px;
+  height: 22px;
+  border: 5px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Fredoka";
+  src: url("../Fredoka/static/Fredoka-Medium.ttf");
+}
+@font-face {
+  font-family: "f-bold";
+  src: url("../Fredoka/static/Fredoka-Bold.ttf");
+}
+
+*,
+* > * {
+  font-family: "Fredoka";
+}
+
+.screen {
+  user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #d6f5eb;
+}
+.screen form {
+  gap: 2em;
+  background: #f1fef8;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+}
+
+.screen .password,
+.screen .email {
+  background: hsl(0deg 0% 100%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: hsl(0deg 0% 30%);
+}
+
+.screen input {
+  outline: none;
+  border: none;
+}
+.screen input::placeholder {
+  color: hsla(0, 0%, 0%, 0.39);
+  font-size: 0.9em;
+}
+.screen .login {
+  padding: 1em;
+  background: #14803d;
+  color: hsl(0 0 100);
+  border: none;
+  border-radius: 30px;
+}
+button {
+  cursor: pointer;
+}
