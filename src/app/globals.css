@@ -9,6 +9,9 @@
 .bgfbd {
   background-image: url("../images/agric.jpg");
 }
+.wp {
+  word-wrap: break-word;
+}
 
 .navm .buttn {
   @apply text-white border-white border-l-0 lg:border-l-2 lg:bg-white/10;
@@ -63,11 +66,11 @@
 .screen form {
   gap: 2em;
   background: #f1fef8;
-  padding: 2em;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  @apply p-4 sm:p-8
 }
 
 .screen .password,

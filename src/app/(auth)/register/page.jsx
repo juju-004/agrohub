@@ -23,7 +23,7 @@ const Register = () => {
   };
 
   return (
-    <div className="mx-auto screen w-screen flex-col min-h-screen text-center">
+    <div className="mx-auto screen w-screen px-2 flex-col min-h-screen text-center">
       <Logo className={"scale-110 mb-7"} />
       <form
         onSubmit={(e) => {
@@ -34,7 +34,7 @@ const Register = () => {
             fullname: e.target.fullname.value,
           });
         }}
-        className="min-w-[420px]"
+        className="w-full max-w-[420px]"
       >
         <div className="email">
           <label htmlFor="fullname">Fullname</label>

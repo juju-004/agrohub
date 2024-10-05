@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className="mx-auto screen w-screen flex-col min-h-screen text-center ">
+    <div className="mx-auto screen w-screen px-2 flex-col min-h-screen text-center ">
       <Logo className={"scale-110 mb-7"} />
       <form
         onSubmit={(e) => {
@@ -33,7 +33,7 @@ const Login = () => {
             password: e.target.password.value,
           });
         }}
-        className="min-w-[420px] relative"
+        className="max-w-[420px] w-full relative"
       >
         {error && (
           <span className="text-red-600 absolute top-0.5 inset-x-0 text-center">

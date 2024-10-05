@@ -19,7 +19,7 @@ function About() {
           />
         </div>
         <div className="basis-3/5">
-          <p>
+          <p className="mt-4 lg:mt-0">
             Agro-Hub is a final year Project done by Onyekwere Gospel Emmanuel
             with Reg No. MOUAU/CMP/19/107924 in Michael Okpara Univerisity of
             Agriculture, Umudike launched in 2024. This Project aims to help
@@ -29,14 +29,14 @@ function About() {
             business plan to support the launch or growth of their
             agri-business.
           </p>
-          <p>
+          <p className="mt-4 lg:mt-0">
             The AgriHub has also taken the approach to reach out to emerging or
             startup agriprenuers that programmes in this webapp will be of help
             to, based upon this approach they can be supported to enhance and
             grow their businesses, moving away from subsistence and supporting
             the growth of the rural economy
           </p>
-          <p>
+          <p className="mt-4 lg:mt-0">
             The AgriHub will also acts as a go to resource for the African
             entrepreneurial sector and would also host top courses from clients
             including the UN Food and Agriculture Organisation.

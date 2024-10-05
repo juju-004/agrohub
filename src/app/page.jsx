@@ -4,8 +4,8 @@ import Auth from "@/components/Auth";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import CardSection from "@/components/CardSection";
+import CourseSec from "@/components/CourseSec";
 import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Index() {
   return (
@@ -16,6 +16,7 @@ function Index() {
       <Hero />
       <About />
       <CardSection />
+      <CourseSec />
       <Footer />
     </>
   );
