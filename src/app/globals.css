@@ -13,6 +13,10 @@
   word-wrap: break-word;
 }
 
+.wp {
+  word-wrap: break-word;
+}
+
 .navm .buttn {
   @apply text-white border-white border-l-0 lg:border-l-2 lg:bg-white/10;
 }
