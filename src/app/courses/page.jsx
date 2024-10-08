@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Navb from "@/components/Navb";
 import Auth from "@/components/Auth";
