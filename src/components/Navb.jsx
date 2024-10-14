@@ -53,8 +53,10 @@ function Navb({ children, alwaysActive }) {
                 align={"end"}
               >
                 <NavDropdown.Item href="#action/3.1">
-                  featured publication : fao agripreneurship <br /> across
-                  africa stories of inspiration
+                  <Link href={"/stories"} className="no-underline text-black">
+                    featured publication : fao agripreneurship <br /> across
+                    africa stories of inspiration
+                  </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
                   <Link href={"/courses"} className="no-underline text-black">
